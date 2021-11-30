@@ -1,10 +1,15 @@
 Git命令
 git config --global user.name 叉叉叉
+
 git config --global user.email 叉叉叉
+
 （存在--global表示是全局配置，不存在表示是局部配置，局部配置表示仅在当前本地仓库有效）
+
 git config --list(查看配置信息)
 git init(初始化本地仓库)
+
 git status(查看文件版本控制，查看某一文件当前的状态)
+
 git status -s(同上，简洁版)
 
 git add 文件名(添加单个文件到暂存区)
